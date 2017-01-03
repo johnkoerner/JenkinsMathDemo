@@ -11,7 +11,7 @@ namespace UnitTests
         public void BasicAdd()
         {
             var result = Addition.Add(5, 5);
-            Assert.AreEqual(11, result);
+            Assert.AreEqual(10, result);
         }
 
         [TestMethod]
